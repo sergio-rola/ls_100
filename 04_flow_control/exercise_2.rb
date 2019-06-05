@@ -1,12 +1,12 @@
-puts "Insert your word here!"
+puts "Insert your string here!"
 input = gets.chomp
 
 
 def all_caps(input)
   if input.length > 10
-      "The modified word is " + input.upcase
+      "The modified string is " + input.upcase
     else
-      "The original word is " + input
+      "The original string is " + input
     end
   end
 

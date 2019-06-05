@@ -5,3 +5,5 @@ def screem(words)
 end
 
 screem("Yippeee")
+
+# does not print anything
